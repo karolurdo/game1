@@ -23,6 +23,14 @@ this.style.boxShadow = '0 0 0 4px green';
 
 }
 
+//second function
+
+const letsPlay = () => {
+    console.log('work');
+}
+
 const hands = document.querySelectorAll(' .select img');
+const button = document.querySelector('button');
 
 hands.forEach(hand => hand.addEventListener('click', handSelection));
+button.addEventListener('click', letsPlay);
